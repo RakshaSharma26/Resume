@@ -12,7 +12,8 @@ html {
 
 body {
     padding: 2rem 2.5rem;
-    background: linear-gradient(#dfe0db, #dfe0db 50%, #fcebe1 50%, #fcebe1);
+    background: linear-gradient(to right, #B7BECE, #B7BECE 50%, #E5E6E1 50%, #E5E6E1);
+    /* background: linear-gradient(#dfe0db, #dfe0db 50%, #fcebe1 50%, #fcebe1); */
     /*   background: linear-gradient (#888, #888 50%, salmon 50%, salmon); */
 }
 
@@ -111,6 +112,7 @@ ul {
     display: grid;
     grid-template-columns: 40% 1fr;
     grid-gap: 4rem;
+    /* background-color: #ECE9E1; */
     background-color: white;
     padding: 3rem;
     max-width: 1000px;
