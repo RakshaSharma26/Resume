@@ -34,7 +34,7 @@ h2 {
 h3 {
     font-size: 1rem;
     text-transform: uppercase;
-    color: salmon;
+    color: #7b8292;
 }
 
 p {
@@ -115,7 +115,7 @@ ul {
     /* background-color: #ECE9E1; */
     background-color: white;
     padding: 3rem;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
 }
 
