@@ -18,8 +18,9 @@ body {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.3rem;
     text-transform: uppercase;
+    text-align: left;
 }
 
 h2 {
@@ -114,14 +115,15 @@ ul {
 }
 
 .achievements ul {
-    list-style: none;
+    list-style-type: disc;
 }
 
-.achievements ul li:before {
+
+/* .achievements ul li:before {
     content: '\2015';
     position: absolute;
     margin-left: -20px;
-}
+} */
 
 .credit {
     /* float: right; */
@@ -131,4 +133,29 @@ ul {
     color: #000;
     margin: auto;
     /* border: 1px solid black; */
+}
+
+.language {
+    display: flex;
+    flex-direction: row;
+    /* border: 3px solid purple; */
+    margin-top: 25px;
+}
+
+.language ul {
+    list-style-type: disc;
+}
+
+.languages {
+    /* border: 1px solid black; */
+    width: 44%;
+    margin: auto;
+    height: 170px;
+}
+
+.interests {
+    /* border: 1px solid black; */
+    width: 48%;
+    margin: auto;
+    height: 170px;
 }
