@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    padding: 2rem 2.5rem;
+    padding: 1rem 1rem;
     background: linear-gradient(to right, #B7BECE, #B7BECE 50%, #E5E6E1 50%, #E5E6E1);
     /* background: linear-gradient(#dfe0db, #dfe0db 50%, #fcebe1 50%, #fcebe1); */
     /*   background: linear-gradient (#888, #888 50%, salmon 50%, salmon); */
@@ -34,7 +34,7 @@ h2 {
 h3 {
     font-size: 1rem;
     text-transform: uppercase;
-    color: #7b8292;
+    color: salmon;
 }
 
 p {
@@ -56,12 +56,6 @@ ul {
 
 .profile {
     text-align: center;
-}
-
-.profile img {
-    border-radius: 9999px;
-    width: 15rem;
-    height: 15rem;
 }
 
 .profile p {
@@ -115,7 +109,7 @@ ul {
     /* background-color: #ECE9E1; */
     background-color: white;
     padding: 3rem;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -124,7 +118,17 @@ ul {
 }
 
 .achievements ul li:before {
-    content: '\2014';
+    content: '\2015';
     position: absolute;
     margin-left: -20px;
+}
+
+.credit {
+    /* float: right; */
+    padding: 3px 5px 0 0;
+    max-width: 1200px;
+    text-align: right;
+    color: #000;
+    margin: auto;
+    /* border: 1px solid black; */
 }
